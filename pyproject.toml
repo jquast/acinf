@@ -1,0 +1,11 @@
+[project]
+name = "acinf"
+version = "0.0.1"
+dependencies = [
+    "wrapt-timeout-decorator",
+    "crccheck",
+    "tenacity",
+    "bleak",
+]
+[project.scripts]
+acinf = "acinf.__main__:main"
