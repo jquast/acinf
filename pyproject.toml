@@ -1,11 +1,17 @@
 [project]
 name = "acinf"
-version = "0.0.1"
+version = "0.0.2"
 dependencies = [
     "wrapt-timeout-decorator",
     "crccheck",
     "tenacity",
     "bleak",
 ]
+description = "AC Infinity Controller 69 Pro command-line and API"
+readme = "README.rst"
+
 [project.scripts]
 acinf = "acinf.__main__:main"
+
+[project.urls]
+homepage = "https://github.com/jquast/acinf"
