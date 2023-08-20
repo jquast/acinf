@@ -2,7 +2,7 @@ About
 -----
 
 This software provides basic CLI and API functionality for controlling a single
-fan and reading sensor values from the AC Infinity Controller 69 Pro. 
+fan and reading sensor values from the AC Infinity Controller 69 Pro using bluetooth. 
 
 Install
 -------
